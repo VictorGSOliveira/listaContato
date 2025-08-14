@@ -1,0 +1,101 @@
+* {
+    font-family: "Inter", sans-serif;
+    border-color: #D9D9D9;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400; font-size: 32px;
+    margin: 64px;
+}
+.cadastro ,.lista {
+    margin-left: 64px;
+}
+.cadastro {
+    width: 912px; height: 88px;
+    border: 1px solid rgb(0,0,0,0.2); /* espessura | estilo | cor */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 48px 0px 48px 64px;
+}
+input, .cadastro button {
+    width: 272px; height: 40px;
+}
+.cadastro input {
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+.cadastro button {
+    border: none;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+input::placeholder {
+    font-size: 16px;
+    color: #b3b3b3;
+    /* padding: 12px 16px; */
+}
+.contato {
+    display: flex;
+    width: 1072px; height: 208px;
+    border: 1px solid rgb(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+.img {
+    width: 160px;
+    height: 160px;
+    background-color: #E3E3E3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img img {
+    width: 95%;
+    height: 95%;
+    opacity: 20%;
+}
+.infoContato {
+    width: 82%;
+}
+.celularInfoContato {
+    margin-bottom: 16px;
+}
+.tituloInfoContato p {
+    font-size: 24px;
+    font-weight: 600;
+}
+.celularInfoContato {
+    color: #757575;
+}
+.celularInfoContato p {
+    font-size: 16px;
+    font-weight: normal;
+}
+.tituloInfoContato {
+    justify-content: space-between;
+}
+.infoContato button {
+    width: 160px; height: 40px;
+    background-color: #2c2c2c; color: #f5f5f5;
+    border: none; border-radius: 8px;
+    font-size: 16px; font-weight: normal;
+}
+.tituloInfoContato button {
+    background-color:rgb(201, 0, 0);
+    color:white; border:none; cursor:pointer; 
+    width: 30px; height: 30px;
+}
+.tituloInfoContato2 {
+    display: flex;
+}
+.tituloInfoContato2 p {
+    padding: 2px;
+}
