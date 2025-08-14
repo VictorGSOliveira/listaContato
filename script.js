@@ -27,7 +27,7 @@ btnRegistro.addEventListener('click', () => {
 
     contatoDiv.innerHTML = `
         <div class="img">
-            <img src="./images/icone homem.png" alt="">
+            <img src="/icone homem.png" alt="">
         </div>
         <div class="infoContato">
             <div class="tituloInfoContato" style="display:flex; justify-content: space-between; width: 100%;">
@@ -61,4 +61,5 @@ btnRegistro.addEventListener('click', () => {
     // Limpa os campos
     nomeInput.value = '';
     numeroInput.value = '';
+
 });
